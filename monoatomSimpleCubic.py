@@ -1,6 +1,6 @@
 import periodictable as ptable
 from scipy.constants import Avogadro 
-import mendeleev as mdl
+from mendeleev import element
 
 
 #Start from the SC
@@ -9,6 +9,7 @@ print("This program can only gives calculation for monoatomic simple cubic latti
 
 radius = (float(input("What is the radius of the atom in pm? "))*10**-12)
 atom = (str(input("What is the atom "))).capitalize()
+#radius = element(atom).atomic_radius
 
 print("What info do you want? ")
 print("1. Volume of The lattice")
