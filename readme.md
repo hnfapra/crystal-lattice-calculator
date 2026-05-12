@@ -1,0 +1,2 @@
+# This project is to calculate the properties of crystal lattice using python
+There's no much thing available at the moment. However for the first part I'll try to develop a away to calculate for simple cubic(sc) then moving on to other crystal structure
